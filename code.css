@@ -1,0 +1,273 @@
+
+
+.heading
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkviolet;
+}
+
+p
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+hr
+{
+background-color: black;
+border-style: dotted;
+width: 10%;
+height: 2rem;
+border-width: 5rem;
+border-color: black;
+}
+
+/* -----First Cotainer----- */
+.name:hover
+{
+ color: brown;
+}
+.title:hover
+{
+  color: brown;
+}
+.first-container
+{
+background-color: skyblue;  
+text-align: center;
+position: relative;
+}
+
+.name {
+  font-family: 'Sacramento', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 5.5rem;
+  color: #824c96;
+
+}
+
+.title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5rem;
+  color: slateblue;
+}
+
+.cld1 {
+  position: absolute;
+  left: 200px;
+}
+
+.cld2 {
+  position: absolute;
+  right: 200px;
+  top: 70px;
+  
+  
+}
+
+/* --------------------- */
+
+
+/* Second Container */
+
+
+/* s1 */
+.s1
+{
+  text-align: center;
+  padding: 2% 0;
+}
+.s1-img
+{
+  border-radius: 100%;
+  width: 150px;
+  height: 100px;
+}
+
+.s1-img:hover
+{
+  background-color: lightblue;
+}
+
+.s1-desc
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+  padding: 0 30%;
+}
+
+/* --------------------- */
+
+/* s2 */
+.s2
+{
+  text-align: center;
+  padding: 2% 0 5%;
+}
+
+.laptop:hover
+{
+  background-color: lightblue;
+}
+
+.arrow-gif
+{
+  position: relative;
+  top: 50px;
+}
+
+.internet:hover
+{
+  background-color: lightblue;
+}
+/* --------------------- */
+
+/* s3 & s4 */
+
+.s3-s4
+{
+  padding: 0 10%;
+}
+/* s3 */
+
+.s3
+{
+  text-align: right;
+  padding: 2% 10%;
+}
+
+.s3-img
+{
+  
+  position: relative;
+  right: 550px;
+  bottom: 200px;
+  width: 120px;
+  height: 120px;
+}
+
+
+.s3-img:hover
+{
+  background-color: lightblue;
+}
+
+.s3-desc
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+/* ----------------- */
+
+/* s4 */
+.s4
+{
+  text-align: left;
+  padding:  1% 10% 0;
+}
+
+.s4-img
+{
+  position: relative;
+  left: 550px;
+  bottom: 200px;
+}
+
+.s4-img:hover
+{
+  background-color: lightblue;
+}
+
+.s4-desc
+{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 1.5rem;
+ line-height: 2;
+}
+
+/* s5 */
+
+.s5
+{
+  text-align: center;
+  padding: 2% 0;
+}
+
+.s5-img
+{
+  border-radius: 100%;
+  width: 150px;
+  height: 100px;
+}
+
+.s5-img:hover
+{
+  background-color: lightblue;
+}
+
+.s5-desc
+{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 1.5rem;
+ line-height: 2;
+ padding: 0 30%;
+}
+
+/* ---------------- */
+
+/* Buttons */
+
+.contact {
+  background: #824c96;
+  background-image: -webkit-linear-gradient(top, #824c96, #11999e);
+  background-image: -moz-linear-gradient(top, #824c96, #11999e);
+  background-image: -ms-linear-gradient(top, #824c96, #11999e);
+  background-image: -o-linear-gradient(top, #824c96, #11999e);
+  background-image: linear-gradient(to bottom, #824c96, #11999e);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/* ------------------ */
+
+/* Third Container */
+
+.third-container {
+  text-align: center;
+  background-color: skyblue;
+  padding: 50px 0 10px;
+  margin: auto;
+}
+
+.footer-img
+{
+  width: 30px;
+  height: 20px;
+}
+
+.footer-img:hover
+{
+  background-color: #30e3cb;
+}
+/* ------------------ */
+
+
