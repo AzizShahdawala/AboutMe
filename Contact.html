@@ -14,18 +14,19 @@
 <body style="background-color: skyblue;">
     <div class="contact-form">
     <div class="container-fluid">
-            <h2>Request a Quote</h2>
-             To request a quote, please fill out the form below. Will contact you within 24 hours to help you with your request.
-        <form action="mailto:azizshada@gmail.com" method="post" enctype="text/plain">
-        <label> <strong>Name: </strong></label> <br>
-        <input type="text" name="name" placeholder="Enter your name" size="30" value=""> <br>
-        <label><strong>Email id: </strong> </label><br>
-        <input type="email" name="email" size="30" placeholder="Enter your email id" value=""> <br>
-        <label><strong>Mobile No: </strong></label><br>
-        <input type="number" name="number" size="30" placeholder="Mobile No:" value=""> <br>
-        <label> <strong>Query: </strong> </label><br>
-        <textarea name="Query" rows="8" cols="50" placeholder="Write down your query here.."></textarea> <br>
-        <input type="submit" class="contact"> <br>            
+        <h2 class="contact-title">Request a Quote</h2>
+        <p class="contact-desc">To request a quote, please fill out the form below. Will contact you within 24 hours to
+        help you with your request.</p>
+        <form href="mailto:azizshada@gmail.com" method="POST" enctype="text/plain">
+            <label class="contact-content"> <strong>Name: </strong></label> <br>
+            <input type="text" name="name" placeholder="Enter your name" size="30" value="" class="placeholders"> <br>
+            <label class="contact-content"><strong>Email id: </strong> </label><br>
+            <input type="email" name="email" size="30" placeholder="Enter your email id" value="" class="placeholders"> <br>
+            <label class="contact-content"><strong>Mobile No: </strong></label><br>
+            <input type="number" name="number" size="30" placeholder="Mobile No:" value="" class="placeholders"> <br>
+            <label class="contact-content"> <strong>Query: </strong> </label><br>
+            <textarea name="Query" rows="8" cols="35" placeholder="Write down your query here.." class="placeholders"></textarea> <br>
+            <input type="Submit" value="Submit" class="btn-primary btn-outline-dark contact-button"> <br>
         </form>
     </div>
    
