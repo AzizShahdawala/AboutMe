@@ -1,0 +1,98 @@
+body
+{
+    background-color: silver;
+}
+
+/* Head Section */
+.container
+{
+   padding: 1% 0;
+   text-align: center;
+}
+
+.title
+{
+    padding-bottom: 2%;
+    font-size: 6rem;
+    font-weight: bolder;
+    color: rgba(223, 35, 35, 0.89);
+}
+
+.intro
+{
+    padding-bottom: 1%;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+button
+{
+    padding: 1%;
+    font-size: 2rem;
+    background-color: burlywood;
+    border-style: dashed;
+}
+/* ----------- */
+
+/* Dice Section */
+
+.player
+{
+    color: rgb(163, 34, 2);
+}
+
+@media(max-width:900px)
+{
+    .container
+{
+   text-align: center;
+}
+
+.title
+{
+    padding-bottom: 1%;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgba(223, 35, 35, 0.89);
+}
+
+.intro
+{
+    padding-bottom: 1%;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: blueviolet;
+}
+
+button
+{
+    padding: 1%;
+    font-size: 2rem;
+    background-color: burlywood;
+    border-style: dashed;
+}
+    .dice1, .dice2
+    {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        padding-top: 4%;
+    }
+}
+
+.dice
+{
+    text-align: center;
+}
+
+/* ----------- */
+
+footer
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 3%;
+}
